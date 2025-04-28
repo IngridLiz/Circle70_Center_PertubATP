@@ -249,7 +249,7 @@ for m in range(len(ATDP)):
             print(n)
         
             # Solve the variational form for time step
-            solve( F == 0, u)
+            solve( F1 == 0, u)
     
             # Save solution to file (VTK)
             _a, _b, _c, _d, _e, _f = u.split()
