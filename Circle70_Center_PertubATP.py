@@ -242,7 +242,7 @@ toll_a = 1.e-5
 
 ATDP=[20.,17.,14.,11.,8.,6.,4.,2.,1.]
 
-for m in len(ATDP): 
+for m in range(len(ATDP)): 
     ATDPc=ATDP[m]
     for n in range(num_step):
         if n < 2000:
